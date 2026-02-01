@@ -1,0 +1,17 @@
+{
+  "proxies": [
+    "http://proxy1.example.com:8080",
+    "http://proxy2.example.com:8080",
+    "http://proxy3.example.com:8080"
+  ],
+  "limits": {
+    "max_follows_per_day": 150,
+    "delay_between_follows": "10-30",
+    "auto_unfollow_after_days": 3
+  },
+  "settings": {
+    "auto_like_posts": false,
+    "auto_comment": false,
+    "use_proxy_rotation": false
+  }
+}
